@@ -5,8 +5,6 @@ Atom.io snippets for ES6/7, Modules, React and BDD testing
 
 ### React ES7 snippets for atom
 
-- Todo
-
 
 ### ES6/7 module imports
 
