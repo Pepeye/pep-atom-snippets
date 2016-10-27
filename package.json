@@ -1,6 +1,6 @@
 {
   "name": "pep-atom-snippets",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Atom.io Snippets (ES6/7, BDD testing, etc...)",
   "main": "index.js",
   "repository": {
