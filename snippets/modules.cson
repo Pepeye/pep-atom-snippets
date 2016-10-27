@@ -1,0 +1,18 @@
+'.source.js':
+  'import module':
+		'prefix': 'imp'
+		'body': """
+				import $1 from '$2'
+		"""
+
+  'import module from library':
+		'prefix': 'imb'
+		'body': """
+				import { $1 } from '$2'
+		"""
+
+	'import default module':
+		'prefix': 'impd'
+		'body': """
+				import * as $1 from '$2'
+		"""

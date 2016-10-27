@@ -1,0 +1,12 @@
+{
+  "name": "pep-atom-snippets",
+  "version": "0.0.0",
+  "description": "Atom.io Snippets (ES6/7, BDD testing, etc...)",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/Pepeye/pep-atom-snippets.git",
+    "type": "git"
+  },
+  "author": "Pepeye <gaofolaju@gmail.com>",
+  "license": "MIT"
+}

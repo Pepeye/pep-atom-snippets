@@ -1,0 +1,152 @@
+'.source.js':
+  'describe':
+    'prefix': 'desc'
+    'body': """
+    describe('${1:description}', () => {
+    \t${0}
+    })
+    """
+
+  'it asynchronous':
+    'prefix': 'ita'
+    'body': """
+    it('${1:description}', (done) => {
+    \t${0}
+    })
+    """
+
+  'it synchronous':
+    'prefix': 'its'
+    'body': """
+    it('${1:description}', () => {
+    \t${0}
+    })
+    """
+
+  'before':
+    'prefix': 'bef'
+    'body': """
+    before(() => {
+    \t${0}
+    })
+    """
+
+  'beforeEach':
+    'prefix': 'befe'
+    'body': """
+    beforeEach(() => {
+    \t${0}
+    })
+    """
+
+  'after':
+    'prefix': 'aft'
+    'body': """
+    after(() => {
+    \t${0}
+    })
+    """
+
+  'afterEach':
+    'prefix': 'afte'
+    'body': """
+    afterEach(() => {
+    \t${0}
+    })
+    """
+
+  # JEST TESTING
+  'jest test asynchronous':
+    'prefix': 'jta'
+    'body': """
+    test('${1:description}', (done) => {
+    \t${0}
+    })
+    """
+
+  'jest test synchronous':
+    'prefix': 'jt'
+    'body': """
+    test('${1:description}', () => {
+    \t${0}
+    })
+    """
+
+  'jest expect called':
+    'prefix': 'jec'
+    'body': """
+        expect($1).toBeCalled()
+    """
+
+  'jest expect equal':
+    'prefix': 'jee'
+    'body': """
+        expect($1).toEqual($2)
+    """
+
+  'jest expect called with':
+    'prefix': 'jecw'
+    'body': """
+        expect($1).toBeCalledWith($2)
+    """
+
+  'jest expect contains':
+    'prefix': 'jecon'
+    'body': """
+        expect($1).toContain('$2')
+    """
+
+  'jest expect false':
+    'prefix': 'jef'
+    'body': """
+        expect($1).toBeFalsy()
+    """
+
+  'jest expect not called':
+    'prefix': 'jenc'
+    'body': """
+        expect($1).not.toBeCalled()
+    """
+
+  'jest expect not contains':
+    'prefix': 'jencon'
+    'body': """
+        expect($1).not.toContain('$2')
+    """
+
+  'jest expect to throw':
+    'prefix': 'jeth'
+    'body': """
+        expect(function() { $1 }).toThrow($2)
+    """
+
+  'jest expect not to throw':
+    'prefix': 'jenth'
+    'body': """
+        expect(function() { $1 }).not.toThrow($2)
+    """
+
+  'jest expect true':
+    'prefix': 'jet'
+    'body': """
+        expect($1).toBeTruthy()
+    """
+
+  'jest mock':
+    'prefix': 'jmck'
+    'body': """
+        let $1Mock
+        $1Mock = jest.genMockFunction()
+    """
+
+  'jest returns':
+    'prefix': 'jmckr'
+    'body': """
+        mockReturnValue($1)
+    """
+
+  'jest returns once':
+      'prefix': 'jmckro'
+      'body': """
+          mockReturnValueOnce($1)
+      """
