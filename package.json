@@ -7,6 +7,9 @@
     "url": "https://github.com/Pepeye/pep-atom-snippets.git",
     "type": "git"
   },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
   "author": "Pepeye <gaofolaju@gmail.com>",
   "license": "MIT"
 }

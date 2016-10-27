@@ -8,7 +8,7 @@
 		'prefix': 'imb'
 		'body': """
 				import { $1 } from '$2'
-		"""
+	  """
 	'import default module':
 		'prefix': 'impd'
 		'body': """
